@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4caf50;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.winner {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.loser {
+    color: #f44336;
+    font-weight: bold;
+}
